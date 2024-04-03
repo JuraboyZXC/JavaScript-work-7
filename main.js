@@ -30,16 +30,32 @@ console.log(
 // 2--
 let array2 = ['Maestro', '2Pac', 'Mellstroy', 'Batusai', 'Bit']
 let deleted = +prompt('Delete index number!')
+// if (deleted == 1) {
+//   console.log(array2.splice(0,1));
+// } if (deleted == 2) {
+//   console.log(array2.splice(1,1));
+// } if (deleted == 3) {
+//   console.log(array2.splice(2,1));
+// } if (deleted == 4) {
+//   console.log(array2.splice(3,1));
+// } if (deleted == 5) {
+//   console.log(array2.splice(4,1));
+// } else {
+//   console.log('Не найдено!');
+// } 
+
 if (deleted == 1) {
   console.log(array2.splice(0,1));
-} if (deleted == 2) {
+} else if (deleted == 2) {
   console.log(array2.splice(1,1));
-} if (deleted == 3) {
+} else if (deleted == 3) {
   console.log(array2.splice(2,1));
-} if (deleted == 4) {
+} else if (deleted == 4) {
   console.log(array2.splice(3,1));
-} if (deleted == 5) {
+} else if (deleted == 5) {
   console.log(array2.splice(4,1));
+} else {
+  console.log('Не найдено');
 }
 
 console.log(array2);
